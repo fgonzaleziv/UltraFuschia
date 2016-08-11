@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Movie</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <section id="logoSec" data-type="background" data-speed="10">
+			<img src="img/assassinautlogo.png" id="logo" />
+		</section>
+		
+		<section id="nav" class="info" data-type="background" data-speed="10">
+			<ul id="nav-bar">
+				<li id="nav1" class="current"><a href="#about" class="active">About</a></li>
+				<li id="nav2"><a href="#trailers">Science Team</a></li>
+				<li id="nav3"><a href="#contact">Contact</a></li>
+				<li id="nav4"><a href="#about">Audition</a></li>
+			</ul>
+		</section>
+		
+		<section id="about" class="info" data-type="background" data-speed="10">
+			<article id="aboutinfo">
+			<p>In an alternate reality, a kid's biggest dream is to become an astronaut. He applies to a space camp where he gets to go to another planet for a photo op with the president.
+			The ship crash lands before they arrive and the only adult's brain is infested by a parasite that turns him into a merciless killing machine. The kid has to survive and get to the president before the evil chaperone destroys him.
+			</p>
+<!-- 			<img src="img/ChildSuit2.png" id="suit" /> -->
+			</article>
+		</section>
+		
+		<section id="trailers" class="info" data-type="background" data-speed="10">
+			<iframe src="https://www.youtube.com/embed/p0U_ULQohcM" frameborder="0" allowfullscreen></iframe>
+		</section>
+		
+		<section id="contact" class="info" data-type="background" data-speed="10">
+			<ul id="tab-contact">
+				<li class="tab-link current" data-tab="tab-1">Mailing List</li>
+				<li class="tab-link" data-tab="tab-2">Contact</li>
+				<li class="tab-link" data-tab="tab-3">Crew</li>
+			</ul>
+		
+			<article id="mailing">
+			<div id="tab-1" class="tab-content current">
+			<label>Join our mailing list! <br /></label>
+			<input type="text" maxlength="255" placeholder="email" />
+			<input id="saveForm" type="submit" value="Submit" />
+			</div>
+			</article>
+			
+			<article id="contact-list">
+			<div id="tab-2"class="tab-content">
+			<label>Contact Us! <br /></label>
+			<textarea id = "contactTXT" placeholder="Contact Us" ></textarea>
+			<input type="text" maxlength="255" placeholder="email" />
+			<input id="saveForm" type="submit" value="Submit" />
+			</div>
+			</article>
+			
+			<article id="crew">
+			<div id="tab-3"class="tab-content">
+			<label>Want to be part of the crew? <br /></label>
+			<input type="text" maxlength="255" placeholder="email" />
+			<input id="saveForm" type="submit" value="Submit" />
+			</div>
+			</article>
+			
+			<article id="audition">
+			</article>
+		</section>
+		
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
